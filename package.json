@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "amplify serve",
+    "build": "amplify publish",
+    "deploy": "amplify push",
+    "clean": "amplify delete",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
